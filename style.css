@@ -144,6 +144,10 @@ body {
     }
   }
   
+
+
+
+
   
   @media (max-width: 991px){
     #navbarSupportedContent ul li a{
@@ -177,57 +181,47 @@ body {
     }
   }
 
+  /* Pc  */
+  @media (min-width: 1200px) {
+    .aladdin_profile { 
 
-  .aladdin_profile { 
+      position: fixed;
+      background-color:  rgba(20, 20, 29, 0.868);
+      width: 100vh;
+      height: 55vh;
+      top: 100px;
+      border-radius: 2.2ch;
+      border: 2px solid var(--mainColor);
+      box-shadow: 0 0 8px 3px var(--mainColor);
+    }
 
+  .aladdin_content_menu {
     position: fixed;
-    background-color:  rgba(20, 20, 29, 0.868);
-    width: 100vh;
-    height: 55vh;
-    top: 100px;
+    background-color:  rgba(31, 31, 33, 0.868);
+    width: 25vh;
+    height: 25vh;
+    top: 115px;
+    left: 980px;
     border-radius: 2.2ch;
     border: 2px solid var(--mainColor);
-    box-shadow: 0 0 8px 3px var(--mainColor);
+    /* box-shadow: 0 0 8px 3px var(--mainColor); */
+    display: inline-block;
+
+
+    color: white;
+
+
+
   }
 
- .aladdin_content_menu {
-  position: fixed;
-  background-color:  rgba(31, 31, 33, 0.868);
-  width: 25vh;
-  height: 25vh;
-  top: 115px;
-  left: 980px;
-  border-radius: 2.2ch;
-  border: 2px solid var(--mainColor);
-  /* box-shadow: 0 0 8px 3px var(--mainColor); */
-  display: inline-block;
+  .aladdin_content {
+    position: relative;
+    display: inline-block;
 
-
-  color: white;
-
-
-
-}
-
-.aladdin_content {
-  position: relative;
-  display: inline-block;
-
-  width: 6vh;
-  height: 6vh;
-  margin: 3.8%;
-}
-
-.aladdin_content:hover {
-  text-decoration: none;
-  color: #dadada;
-}
-
-.aladdin_content:hover{
-opacity: .7;
-}
-
-
+    width: 6vh;
+    height: 6vh;
+    margin: 3.8%;
+  }
 
   .aladdin_img {
     position:fixed;
@@ -245,53 +239,222 @@ opacity: .7;
     border-radius: 2.2ch;
   /* box-shadow: 0 0 8px 3px var(--mainColor); */
 
+  }  
+  .aladdin_bio {
+      position: fixed;
+      background-color:  rgba(31, 31, 33, 0.868);
+      width: 75vh;
+      height: 24vh;
+      top: 370px;
+      left: 400px;
+      border-radius: 2.2ch;
+      border: 2px solid var(--mainColor);
+      /* box-shadow: 0 0 8px 3px var(--mainColor); */
+      display: inline-block;
+    
+  text-align: center;
+      color: white;
+    
+    
+    /* box-shadow: 0 0 8px 3px var(--mainColor); */
+
+    }
+    
+
+    .bio {
+      position: relative;
+      top:-50px;
+      margin: 14%;
+    }
+
+}
+
+
+
+
+@media (max-width: 991px){
+
+  .aladdin_profile { 
+
+    position: fixed;
+    background-color:  rgba(20, 20, 29, 0.868);
+    width: 50vh;
+    height: 85vh;
+    left: 6.3%;
+    top: 90px;
+    border-radius: 2.2ch;
+    border: 2px solid var(--mainColor);
+    box-shadow: 0 0 8px 3px var(--mainColor);
+  }
+  .aladdin_img {
+    position:fixed;
+    top: 25%;
+    left: 35px;
+    width: 130px;
+    border-radius: 20%;
+    border: 2px solid #fff;
+    }  
+    .aladdin_banner {
+    position:fixed;
+    top: 17%;
+    left: 35px;
+    width: 82%;
+    border-radius: 2.2ch;
+    /* box-shadow: 0 0 8px 3px var(--mainColor); */
+    
+    }  
+
+  .aladdin_content_menu {
+    position: fixed;
+    background-color:  rgba(31, 31, 33, 0.868);
+    width: 17vh;
+    height: 24vh;
+    top: 72%;
+    left: 135px;
+    border-radius: 2.2ch;
+    border: 2px solid var(--mainColor);
+    /* box-shadow: 0 0 8px 3px var(--mainColor); */
+  
+  
+    color: white;
+  
+  
+  
+  }
+
+
+
+
+.aladdin_content {
+position: relative;
+display: inline-block;
+
+width: 6vh;
+height: 6vh;
+margin: 3.8%;
+}
+
+
+.aladdin_bio {
+  position: fixed;
+  background-color:  rgba(31, 31, 33, 0.868);
+  width: 47vh;
+  height: 24vh;
+  top: 46%;
+  left: 35px;
+  border-radius: 2.2ch;
+  border: 2px solid var(--mainColor);
+  /* box-shadow: 0 0 8px 3px var(--mainColor); */
+  display: inline-block;
+
+  color: white;
+
+
+/* box-shadow: 0 0 8px 3px var(--mainColor); */
+
+}
+
+
+.bio {
+
+  position: relative;
+  top:-40px;
+left: -40px;
+  margin: 14%;
+}
+
+
+  }
+
+
+
+
+.aladdin_content:hover {
+  text-decoration: none;
+  color: #dadada;
+}
+
+.aladdin_content:hover{
+opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .aladdin_profile {
+    position: fixed;
+    background-color: rgba(20, 20, 29, 0.868);
+    width: 70vh; /* Adjust the width as needed */
+    height: 84vh; /* Adjust the height as needed */
+    left: 4%; /* Adjust the left position as needed */
+    top: 150px;
+    border-radius: 2.2ch;
+    border: 2px solid var(--mainColor);
+    box-shadow: 0 0 8px 3px var(--mainColor);
+  }
+
+  .aladdin_content_menu {
+    position: fixed;
+    background-color: rgba(31, 31, 33, 0.868);
+    width: 25vh;
+    height: 25vh;
+    top: 60%;
+    left: 35%; /* Adjust the left position as needed */
+    border-radius: 2.2ch;
+    border: 2px solid var(--mainColor);
+    color: white;
+  }
+
+  .aladdin_img {
+    position: fixed;
+    top: 20%;
+    left: 35px;
+    width: 300px;
+    border-radius: 5.2ch;
+    border: 2px solid #fff;
+  }
+
+  .aladdin_banner {
+    position: fixed;
+    top: 12%;
+    left: 105px;
+    width: 82%;
+    border-radius: 2.2ch;
   }
 
   .aladdin_bio {
     position: fixed;
-    background-color:  rgba(31, 31, 33, 0.868);
-    width: 75vh;
-    height: 24vh;
-    top: 370px;
-    left: 400px;
+    background-color: rgba(31, 31, 33, 0.868);
+    width: 42vh;
+    height: 18vh;
+    top: 36%;
+    left: 380px;
     border-radius: 2.2ch;
     border: 2px solid var(--mainColor);
-    /* box-shadow: 0 0 8px 3px var(--mainColor); */
     display: inline-block;
-  
- text-align: center;
     color: white;
-  
-  
-  /* box-shadow: 0 0 8px 3px var(--mainColor); */
-
   }
 
   .bio {
     position: relative;
-    top:-50px;
+    top: -40px;
+
+    left: 50px;
     margin: 14%;
   }
 
-
-
-  @media (max-width: 991px){
-    .aladdin_img {
-      position:fixed;
-      top: 20%;
-      left: 100px;
-      width: 200px;
-   border-radius: 20%;
-   border: #fff;
-   border-style:outset;
-    }
-    .aladdin_banner {
-      position:fixed;
-      top: 20%;
-      left: 100px;
-      width: 15%;
-   border: #fff;
-    }
-    }
-
-
+  .aladdin_content {
+    position: relative;
+    display: inline-block;
+    width: 6vh;
+    height: 6vh;
+    margin: 3.8%;
+  }
+}
