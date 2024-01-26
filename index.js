@@ -5,7 +5,7 @@ $( function() {
 
 	function show(menu) {
 		$(".main_aladdin").hide("Flod");
-		$(".aladdin_work").hide("Flod");
+		$(".aladdin_AboutME_menu").hide("Flod");
 
 console.log(menu)
 	$(`.${menu}`).show("Flod");
@@ -61,7 +61,7 @@ $(".navbar-toggler").click(function(){
 
 
 $(document).ready(function() {
-	$(".aladdin_work").hide();
+	$(".aladdin_AboutME_menu").hide();
 
 	$(".main_aladdin").show();
 
@@ -87,14 +87,30 @@ $(document).ready(function() {
 	setTimeout(function(){ test(); });
 
 });
+//=========================aladdin_buttons================================\\
 
 $(document).on('click', '.aladdin_home', function() {
 	show("main_aladdin")
 })
 
 $(document).on('click', '.aladdin_AboutME', function() {
-	show("aladdin_AboutME")
+	show("aladdin_AboutME_menu")
 })
+
+// let time = 0;
+// let m = 0;
+
+// setInterval(function(){
+// 	time++;
+	
+// 	if(time == 60){
+// 		time = 0
+// 		m++;
+// 	}
+// 	$('.time').text(`${m}:${time}`)
+
+
+// },1000)
 
 //=========================aladdin_content================================\\
 $(document).on('click', '#discord-icon', function() {
