@@ -147,7 +147,7 @@
     }
   }
   
-
+ #language:hover{  opacity: .7;}
 
   .aladdin_content:hover {
     text-decoration: none;
@@ -488,8 +488,29 @@ left: -40px;
 
 
 
+.aladdin_work_menu {
+  position: relative;
+  background-color: var(--backgroundColor);
+  /* width: 900vh; 
+  height: 84vh;  */
+  top: 50px;
+  border-radius: 2.2ch;
+  border: 2px solid var(--mainColor);
+  box-shadow: 0 0 8px 3px var(--mainColor);
+  overflow: auto;
+  
+}
 
+.my_work {
+  position: relative;
+  left: 10px;
+}
+.card{
+  position: relative;
+  margin: 1.7ch;
+  display: inline-block;
 
+}
 
 
 
